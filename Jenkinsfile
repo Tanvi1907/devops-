@@ -6,7 +6,7 @@ pipeline {
         ECR_REGISTRY  = "864058201644.dkr.ecr.ap-south-1.amazonaws.com/jenkinsrepo"
         ECR_REPO      = "jenkinsrepo"
         IMAGE_TAG     = "${BUILD_NUMBER}"
-        APP_EC2_HOST  = "65.0.105.213"
+        APP_EC2_HOST  = "35.154.59.221"
         CONTAINER_NAME = "student-app"
         APP_PORT      = "80"
     }
